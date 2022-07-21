@@ -14,11 +14,11 @@ public class DataInserTest extends AppTest {
 	
 	@Test
 	public void dataInsert() {
-		for(int i =1; i<=412; i++) {
+		for(int i =1; i<=211; i++) {
 			
 			BoardVO vo = new BoardVO();
-			vo.setTitle("제목 : 페이징 처리 연습"+i);
-			vo.setContent("제목 : 페이징 처리 연습"+i);
+			vo.setTitle("제목 : 검색 연습"+i);
+			vo.setContent("제목 : 검색 연습"+i);
 			vo.setWriter("관리자");
 			mapper.insert(vo);
 		}
